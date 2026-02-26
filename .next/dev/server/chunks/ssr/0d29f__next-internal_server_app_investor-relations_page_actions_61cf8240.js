@@ -1,0 +1,7 @@
+module.exports = [
+"[project]/development/update/update-monorepo/update-marketing/.next-internal/server/app/investor-relations/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__, module, exports) => {
+
+}),
+];
+
+//# sourceMappingURL=0d29f__next-internal_server_app_investor-relations_page_actions_61cf8240.js.map

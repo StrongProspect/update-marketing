@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/b-strong/development/update/update-monorepo/update-marketing/app/privacy/page.tsx"],"sourcesContent":["export default function Privacy() {\n  return <p className=\"mx-[50%]\">Privacy</p>;\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,oTAAC;QAAE,WAAU;kBAAW;;;;;;AACjC"}}]
+}

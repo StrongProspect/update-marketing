@@ -1,0 +1,3 @@
+module.exports=[73343,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(20732);a.n(d("[project]/development/update/update-monorepo/update-marketing/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},14820,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(20732);a.n(d("[project]/development/update/update-monorepo/update-marketing/node_modules/next/dist/client/components/builtin/global-error.js"))},97322,a=>{"use strict";a.i(73343);var b=a.i(14820);a.n(b)}];
+
+//# sourceMappingURL=90c9e_next_dist_client_components_builtin_global-error_9d24e005.js.map

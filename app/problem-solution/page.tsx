@@ -1,0 +1,257 @@
+export default function ProblemSolution() {
+  return (
+    <div className="bg-white dark:bg-black">
+      {/* Hero Section */}
+      <section className="py-20 sm:py-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-white sm:text-6xl">
+              The Problems We Solve
+            </h1>
+            <p className="mx-auto whitespace-pre-line mt-6 max-w-2xl text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+              {`As subscriptions increase, so does the management effort. \nDon't let your account be forgotten in the shuffle.`}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Problem Section */}
+      <section className="bg-zinc-50 py-20 dark:bg-zinc-900">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
+                The Problem
+              </h2>
+              <div className="mt-8 space-y-6">
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Fragmented Systems
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      Each business has its own disconnected tool or platform
+                      that can&apos;t communicate with others, leading to
+                      inefficiencies and data silos. As auto-draft and
+                      subscriptions increase, so does the need for making
+                      updates easy.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Time-Consuming Process
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      {`Even with convenience tools - password managers, auto-fill, digital wallets, or payment processors - having to manually update payments and personal data across accounts takes time, effort, and a good memory.`}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Growing Failed Transactions / Undelivered Marketing
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      Every lost card, new bank account, client move, or
+                      auto-draft change poses a risk of churn or ineffective
+                      marketing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="aspect-square rounded-2xl bg-linear-to-br from-red-100 to-red-200 dark:from-red-900/20 dark:to-red-800/20"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Solution Section */}
+      <section className="py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div className="order-2 lg:order-1">
+              <div className="aspect-square rounded-2xl bg-linear-to-br from-green-100 to-green-200 dark:from-green-900/20 dark:to-green-800/20"></div>
+            </div>
+
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
+                Our Solution
+              </h2>
+              <div className="mt-8 space-y-6">
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Unified Platform
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      {`UpDate brings consumers a single platform for accomplishing multiple changes at once, eliminating silos and creating a single
+                      source of truth.`}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Multi-Faceted Methods
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      We take a comprehensive approach to ensure your user can
+                      complete their request. With fallbacks and fail-safes, we
+                      mitigate dead letter queues and maximize impact. We work
+                      with you to make sure updates can be made safely and
+                      effectively.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400">
+                    <svg
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                      Intelligent Insight / Real-Time Analytics
+                    </h3>
+                    <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+                      See how UpDate is saving your bottom line with a KPI
+                      platform for tracking user metrics and successful change
+                      requests.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Results Section */}
+      {/* <section className="bg-primary-600 py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              The Results
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">
+              What can your business achieve with UpDate?
+            </p>
+          </div>
+
+          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white">Time Saved</div>
+              <div className="mt-2 text-blue-100">Time Saved</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white">3x</div>
+              <div className="mt-2 text-blue-100">Productivity Increase</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white">99.9%</div>
+              <div className="mt-2 text-blue-100">Uptime</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white">24/7</div>
+              <div className="mt-2 text-blue-100">Support</div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+    </div>
+  );
+}

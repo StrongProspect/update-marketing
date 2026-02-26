@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../../development/update/update-monorepo/update-marketing/app/privacy/page.tsx"],"sourcesContent":["export default function Privacy() {\n  return <p className=\"mx-[50%]\">Privacy</p>;\n}\n"],"names":[],"mappings":"qVAAe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,IAAA,CAAE,UAAU,oBAAW,WACjC"}

@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[21630,["/update-monorepo/_next/static/chunks/b7e60d0eecfc8386.js","/update-monorepo/_next/static/chunks/f237deec605ae1aa.js"],"ViewportBoundary"]
+3:I[21630,["/update-monorepo/_next/static/chunks/b7e60d0eecfc8386.js","/update-monorepo/_next/static/chunks/f237deec605ae1aa.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[26530,["/update-monorepo/_next/static/chunks/b7e60d0eecfc8386.js","/update-monorepo/_next/static/chunks/f237deec605ae1aa.js"],"IconMark"]
+0:{"buildId":"7UhABMTxpTPL9GMUhfJm3","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Update | Innovative Business Solutions"}],["$","meta","1",{"name":"description","content":"Revolutionizing the way you manage and grow your business with innovative solutions designed for the modern world."}],["$","link","2",{"rel":"icon","href":"/update-monorepo/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
